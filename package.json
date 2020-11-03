@@ -1,0 +1,31 @@
+{
+  "name": "aws-auth",
+  "version": "1.0.0",
+  "description": "Provides aws-sdk authentication scripts and methods, with support for MFA and named profiles, helpful for local development.",
+  "author": "chandywerks",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "bin": {
+    "assume-role": "scripts/assume-role.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/chandywerks/aws-auth.git"
+  },
+  "keywords": [
+    "aws",
+    "auth"
+  ],
+  "bugs": {
+    "url": "https://github.com/chandywerks/aws-auth/issues"
+  },
+  "homepage": "https://github.com/chandywerks/aws-auth#readme",
+  "dependencies": {
+    "aws-sdk": "^2.784.0",
+    "inquirer": "^7.3.3",
+    "yargs": "^16.1.0"
+  }
+}
